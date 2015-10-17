@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService2" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=portalvhds6f2zsrdfb74k;AccountKey=/vX47C7LQ3ydY2qc/ghnLTInNrg6z+5hEtB6DH75eAXHUJUIWPXb/AQ3rOVV/V6n+8PpLbcAN4Xpw54bivMpLg==" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="LeadBaseWebApp">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=portalvhds6f2zsrdfb74k;AccountKey=/vX47C7LQ3ydY2qc/ghnLTInNrg6z+5hEtB6DH75eAXHUJUIWPXb/AQ3rOVV/V6n+8PpLbcAN4Xpw54bivMpLg==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
